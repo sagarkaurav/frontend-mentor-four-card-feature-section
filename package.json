@@ -1,0 +1,15 @@
+{
+  "name": "four_card_feature_section",
+  "version": "1.0.0",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.5.2"
+  },
+  "scripts": {
+    "build:dev": "postcss src/css/styles.css -o public/css/styles.css",
+    "build:prod": "NODE_ENV=production postcss src/css/styles.css -o public/css/styles.css"
+  }
+}
